@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/samples/static/css/main.c1d3c7c7.css",
-    "main.js": "/samples/static/js/main.221bbb01.js",
+    "main.css": "/samples/static/css/main.3e086664.css",
+    "main.js": "/samples/static/js/main.8b47b43e.js",
+    "static/media/hero-image.jpg": "/samples/static/media/hero-image.59d3a5865bec008843f7.jpg",
+    "static/media/Mountain-t-shirts-logo.png": "/samples/static/media/Mountain-t-shirts-logo.4dd40ecb8a2a769fa9a6.png",
+    "static/media/6pm.png": "/samples/static/media/6pm.3af283e886700b7e0777.png",
+    "static/media/Amazon-logo.jpg": "/samples/static/media/Amazon-logo.c9025429d11b885452ea.jpg",
     "index.html": "/samples/index.html",
-    "main.c1d3c7c7.css.map": "/samples/static/css/main.c1d3c7c7.css.map",
-    "main.221bbb01.js.map": "/samples/static/js/main.221bbb01.js.map"
+    "main.3e086664.css.map": "/samples/static/css/main.3e086664.css.map",
+    "main.8b47b43e.js.map": "/samples/static/js/main.8b47b43e.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1d3c7c7.css",
-    "static/js/main.221bbb01.js"
+    "static/css/main.3e086664.css",
+    "static/js/main.8b47b43e.js"
   ]
 }
