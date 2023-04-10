@@ -4,9 +4,8 @@ export const Footer = () => {
   return (
     <footer className={s.footer}>
       <div className={s.footer_section}>
-        <p className={s.footer_text}> 2023 | All Rights Reserved |</p>
+        <p className={s.footer_text}> 2023 | All Rights Reserved |&nbsp;</p>
         <p className={s.footer_margin}>
-          {' '}
           Developed by Shturma
           {/* with */}
           <svg

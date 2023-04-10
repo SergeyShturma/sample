@@ -1,30 +1,29 @@
 .portfolio__examples {
-  display: block;
-  text-align: center;
-  padding: 0;
-  margin: 16px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-left: 32px;
+  padding-right: 32px;
   list-style: none;
   width: 320px;
   height: 100%;
 }
+
 @media screen and (min-width: 768px) {
   .portfolio__examples {
-    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 30px;
     width: 768px;
-    min-height: 21px;
-    padding-left: 32px;
-    padding-right: 32px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .portfolio__examples {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
     width: 1280px;
   }
 }
@@ -126,6 +125,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .portfolio__link:hover .portfolio__overlay,

@@ -1,11 +1,14 @@
 .clients {
-  padding-bottom: 60px;
+  padding-bottom: 40px;
 }
 
 .clients__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
   gap: 30px;
   list-style: none;
 }
@@ -21,7 +24,8 @@
   font-size: 28px;
   line-height: 1.18;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  margin-top: 0;
 }
 
 @media screen and (min-width: 1200px) {
@@ -150,4 +154,8 @@
 
 .clients__icon {
   fill: currentColor;
+}
+
+.container {
+  padding: 15px;
 }

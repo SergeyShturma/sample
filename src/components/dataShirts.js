@@ -76,6 +76,34 @@ const dataShirts = [
     link: 'https://www.kidstaff.com.ua/tema-33233429.html',
     id: 33,
   },
+  {
+    price: 450,
+    size: ['M'],
+    image: require('../images/portfolio-img-12.jpg'),
+    link: 'https://www.kidstaff.com.ua/tema-32535813.html',
+    id: 35,
+  },
+  {
+    price: 400,
+    size: ['M'],
+    image: require('../images/portfolio-img-13.jpeg'),
+    link: 'https://www.kidstaff.com.ua/tema-32511574.html',
+    id: 36,
+  },
+  {
+    price: 450,
+    size: ['M'],
+    image: require('../images/portfolio-img-14.jpg'),
+    link: 'https://www.kidstaff.com.ua/tema-21663656.html',
+    id: 38,
+  },
+  {
+    price: 400,
+    size: ['M'],
+    image: require('../images/portfolio-img-15.jpg'),
+    link: 'https://www.kidstaff.com.ua/tema-32511534.html',
+    id: 39,
+  },
 ];
 
 export default dataShirts;

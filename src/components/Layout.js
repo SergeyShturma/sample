@@ -20,6 +20,20 @@ export const Layout = () => {
             <NavLink className={s.link} activeStyle={s.activeStyle} to="/">
               Футболки
             </NavLink>
+            <NavLink
+              className={s.link}
+              activeStyle={s.activeStyle}
+              to="/ShirtsWomen"
+            >
+              Жіночі
+            </NavLink>
+            <NavLink
+              className={s.link}
+              activeStyle={s.activeStyle}
+              to="/ShirtsChild"
+            >
+              Дитячі
+            </NavLink>
             <NavLink className={s.link} activeStyle={s.activeStyle} to="/Masks">
               Маски
             </NavLink>
