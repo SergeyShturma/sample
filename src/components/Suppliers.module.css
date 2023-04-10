@@ -70,7 +70,7 @@
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   text-decoration: none;
-  background-image: url(/public/images/Amazon-logo.jpg);
+  background-image: url(/src/images/Amazon-logo.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -100,7 +100,7 @@
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   text-decoration: none;
-  background-image: url(/public/images/Mountain-t-shirts-logo.png);
+  background-image: url(/src/images/Mountain-t-shirts-logo.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -130,7 +130,7 @@
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   text-decoration: none;
-  background-image: url(/public/images/6pm.png);
+  background-image: url(/src/images/6pm.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;

@@ -1,10 +1,10 @@
-import s from './Shirts.module.css';
-import dataShirts from './dataShirts';
+import s from './Masks.module.css';
+import dataMasks from './dataMasks';
 
-const Shirts = () => {
+const Masks = () => {
   return (
     <ul className={s.portfolio__examples}>
-      {dataShirts.map(({ id, price, size, image, link }, index) => (
+      {dataMasks.map(({ id, price, image, link }, index) => (
         <li key={index} className={s.portfolio__item}>
           <a
             href={link}
@@ -23,7 +23,6 @@ const Shirts = () => {
               </p>
             </div>
             <div className={s.portfolio__subtitle}>
-              <h2 className={s.portfolio__title}>{size}</h2>
               <p className={s.portfolio__text}>{price} грн</p>
             </div>
           </a>
@@ -33,4 +32,4 @@ const Shirts = () => {
   );
 };
 
-export default Shirts;
+export default Masks;

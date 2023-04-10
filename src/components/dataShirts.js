@@ -1,0 +1,81 @@
+const dataShirts = [
+  {
+    price: 650,
+    size: ['L, ', 'XL'],
+    image: require('../images/portfolio-img-1.jpg'),
+    link: 'https://www.kidstaff.com.ua/tema-33371805.html',
+    id: 11,
+  },
+  {
+    price: 650,
+    size: ['M, ', 'L, ', 'XL'],
+    image: require('../images/portfolio-img-2.jpg'),
+    link: 'https://www.kidstaff.com.ua/tema-33371786.html',
+    id: 14,
+  },
+  {
+    price: 600,
+    size: ['S, ', 'M, ', 'L, ', 'XL'],
+    image: require('../images/portfolio-img-3.jpg'),
+    link: 'https://www.kidstaff.com.ua/tema-32681798.html',
+    id: 16,
+  },
+  {
+    price: 600,
+    size: ['S, ', 'M'],
+    image: require('../images/portfolio-img-4.jpg'),
+    link: 'https://www.kidstaff.com.ua/tema-33264000.html',
+    id: 19,
+  },
+  {
+    price: 650,
+    size: ['S, ', '3XL'],
+    image: require('../images/portfolio-img-5.jpg'),
+    link: 'https://www.kidstaff.com.ua/tema-33264018.html',
+    id: 20,
+  },
+  {
+    price: 600,
+    size: ['M'],
+    image: require('../images/portfolio-img-6.jpg'),
+    link: 'https://www.kidstaff.com.ua/tema-31233990.html',
+    id: 23,
+  },
+  {
+    price: 600,
+    size: ['M'],
+    image: require('../images/portfolio-img-7.jpg'),
+    link: 'https://www.kidstaff.com.ua/tema-30078566.html',
+    id: 25,
+  },
+  {
+    price: 600,
+    size: ['M'],
+    image: require('../images/portfolio-img-8.jpg'),
+    link: 'https://www.kidstaff.com.ua/tema-30078601.html',
+    id: 27,
+  },
+  {
+    price: 650,
+    size: ['L'],
+    image: require('../images/portfolio-img-9.jpg'),
+    link: 'https://www.kidstaff.com.ua/tema-31808036.html',
+    id: 28,
+  },
+  {
+    price: 550,
+    size: ['M'],
+    image: require('../images/portfolio-img-10.jpg'),
+    link: 'https://www.kidstaff.com.ua/tema-33066719.html',
+    id: 31,
+  },
+  {
+    price: 550,
+    size: ['M'],
+    image: require('../images/portfolio-img-11.jpg'),
+    link: 'https://www.kidstaff.com.ua/tema-33233429.html',
+    id: 33,
+  },
+];
+
+export default dataShirts;

@@ -7,7 +7,8 @@ export const Footer = () => {
         <p className={s.footer_text}> 2023 | All Rights Reserved |</p>
         <p className={s.footer_margin}>
           {' '}
-          Developed with
+          Developed by Shturma
+          {/* with */}
           <svg
             className={s.footer_icon}
             lang="en"
@@ -17,7 +18,6 @@ export const Footer = () => {
           >
             <use href="/src/images/sprite.svg#icon-heart"></use>
           </svg>
-          by Shturma
         </p>
       </div>
     </footer>

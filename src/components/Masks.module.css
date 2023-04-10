@@ -80,7 +80,7 @@
 
 @media screen and (min-width: 768px) {
   .portfolio__pic {
-    height: 360px;
+    height: 180px;
   }
 }
 
@@ -106,16 +106,6 @@
   text-align: center;
   color: #000000;
   margin: 0;
-}
-
-.portfolio__title {
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  margin: 0;
-  color: #000000;
-  text-align: center;
 }
 
 .portfolio__overlay {

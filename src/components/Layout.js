@@ -9,22 +9,22 @@ import { Arrow } from './Arrow';
 export const Layout = () => {
   return (
     <div className={s.wrapper}>
-      <header className={s.header}>
+      <header>
         <div className={s.banner}>#StandWithUKRAINE</div>
-        <nav>
+        <nav className={s.header}>
           <h2 className={s.header__logo_title}>
             Якісний оригінальний одяг фірмового бренду The Mountain з офіційного
             магазину в США.
           </h2>
           <div className={s.link__wrapper}>
-            <NavLink className={s.link} to="/">
+            <NavLink className={s.link} activeStyle={s.activeStyle} to="/">
               Футболки
             </NavLink>
-            <NavLink className={s.link} to="/">
+            <NavLink className={s.link} activeStyle={s.activeStyle} to="/Masks">
               Маски
             </NavLink>
           </div>
-          <p className={s.link_info}>Вайбер та телеграм: (099) 044-88-74</p>
+          <p className={s.link_info}>viber та telegram: (099) 044-88-74</p>
         </nav>
       </header>
       {/* <Theme /> */}

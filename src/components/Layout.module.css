@@ -1,3 +1,7 @@
+.wrapper {
+  width: 100%;
+}
+
 .banner {
   position: absolute;
   top: 0;
@@ -19,46 +23,77 @@ nav {
 
 .link__wrapper {
   display: flex;
+  justify-content: center;
   gap: 10px;
   margin-left: 10px;
 }
 
 .link {
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 8px 16px;
   border-radius: 4px;
   text-decoration: none;
   color: rgb(74, 59, 59);
   font-weight: 500;
   font-size: 20px;
-  background-color: rgb(208, 202, 194);
+  background-color: rgb(227, 240, 151);
 }
 
-.link:hover {
+.link:hover,
+.link:focus,
+.activeStyle {
   color: white;
   background-color: rgb(211, 84, 38);
 }
 
 .link_info {
   margin: 0;
-  text-align: right;
+  margin-top: 10px;
+  text-align: center;
   font-weight: 500;
   font-size: 24px;
   color: azure;
 }
 
-.header {
+header {
+  width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-color: rgba(0, 0, 0, 0.56);
-  background-image: url(/public/images/hero-image.jpg);
+  background-image: url(/src/images/hero-image.jpg);
   background-size: cover;
+}
+
+.header {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
   padding-top: 24px;
   padding-bottom: 20px;
 }
 
+@media screen and (min-width: 320px) {
+  .header {
+    width: 320px;
+    height: 100%;
+  }
+}
 @media screen and (min-width: 768px) {
   .header {
+    width: 768px;
     min-height: 21px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .header {
+    width: 1280px;
+    padding-left: 31px;
+    padding-right: 31px;
   }
 }
 
