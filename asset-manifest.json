@@ -1,17 +1,36 @@
 {
   "files": {
-    "main.css": "/samples/static/css/main.3e086664.css",
-    "main.js": "/samples/static/js/main.8b47b43e.js",
+    "main.css": "/samples/static/css/main.64842abe.css",
+    "main.js": "/samples/static/js/main.5aedd467.js",
+    "static/media/portfolio-img-11.jpg": "/samples/static/media/portfolio-img-11.a43d8a5f5d56f30677bf.jpg",
+    "static/media/portfolio-img-1.jpg": "/samples/static/media/portfolio-img-1.c93443275b1f74b3a286.jpg",
+    "static/media/portfolio-img-5.jpg": "/samples/static/media/portfolio-img-5.b94b3683cd01055c847d.jpg",
+    "static/media/portfolio-img-10.jpg": "/samples/static/media/portfolio-img-10.acef199b90f48174cc0b.jpg",
+    "static/media/mask5.jpg": "/samples/static/media/mask5.a01d83d19315053d8991.jpg",
+    "static/media/mask2.jpg": "/samples/static/media/mask2.ef6d6315953d44ed8769.jpg",
+    "static/media/mask1.jpg": "/samples/static/media/mask1.368fcc29825d682693ce.jpg",
+    "static/media/portfolio-img-3.jpg": "/samples/static/media/portfolio-img-3.f465c9c7afaa258be8d4.jpg",
+    "static/media/mask8.jpg": "/samples/static/media/mask8.a1d020a7ec961c0dda87.jpg",
+    "static/media/mask4.jpg": "/samples/static/media/mask4.9cce3e31449fc56e715b.jpg",
+    "static/media/mask3.jpg": "/samples/static/media/mask3.f331f46f3bfef0232ce4.jpg",
     "static/media/hero-image.jpg": "/samples/static/media/hero-image.59d3a5865bec008843f7.jpg",
+    "static/media/portfolio-img-6.jpg": "/samples/static/media/portfolio-img-6.6792d49878e08790542d.jpg",
+    "static/media/portfolio-img-8.jpg": "/samples/static/media/portfolio-img-8.bdd04fe562eeb19c4c20.jpg",
+    "static/media/portfolio-img-7.jpg": "/samples/static/media/portfolio-img-7.9f80a3a974d8bddcc194.jpg",
+    "static/media/portfolio-img-9.jpg": "/samples/static/media/portfolio-img-9.785dc4dd9acfb0029e39.jpg",
+    "static/media/mask6.jpeg": "/samples/static/media/mask6.67f01c1b1765c9c80f85.jpeg",
+    "static/media/portfolio-img-4.jpg": "/samples/static/media/portfolio-img-4.4f5be9c60812bd3fe5c4.jpg",
     "static/media/Mountain-t-shirts-logo.png": "/samples/static/media/Mountain-t-shirts-logo.4dd40ecb8a2a769fa9a6.png",
+    "static/media/portfolio-img-2.jpg": "/samples/static/media/portfolio-img-2.ec8034481ea0a3cb0ee2.jpg",
+    "static/media/mask7.jpg": "/samples/static/media/mask7.bfe5c238017dd3cf9337.jpg",
     "static/media/6pm.png": "/samples/static/media/6pm.3af283e886700b7e0777.png",
     "static/media/Amazon-logo.jpg": "/samples/static/media/Amazon-logo.c9025429d11b885452ea.jpg",
     "index.html": "/samples/index.html",
-    "main.3e086664.css.map": "/samples/static/css/main.3e086664.css.map",
-    "main.8b47b43e.js.map": "/samples/static/js/main.8b47b43e.js.map"
+    "main.64842abe.css.map": "/samples/static/css/main.64842abe.css.map",
+    "main.5aedd467.js.map": "/samples/static/js/main.5aedd467.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e086664.css",
-    "static/js/main.8b47b43e.js"
+    "static/css/main.64842abe.css",
+    "static/js/main.5aedd467.js"
   ]
 }
