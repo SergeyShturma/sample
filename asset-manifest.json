@@ -1,19 +1,29 @@
 {
   "files": {
-    "main.css": "/samples/static/css/main.64842abe.css",
-    "main.js": "/samples/static/js/main.5aedd467.js",
+    "main.css": "/samples/static/css/main.039da427.css",
+    "main.js": "/samples/static/js/main.7a48d610.js",
+    "static/media/portfolio-img-12.jpg": "/samples/static/media/portfolio-img-12.664864c9121ac3cec539.jpg",
+    "static/media/portfolio-img-15.jpg": "/samples/static/media/portfolio-img-15.77bad3d6f1c9f50adea3.jpg",
+    "static/media/women4.jpeg": "/samples/static/media/women4.9f454ce190456bcbff95.jpeg",
+    "static/media/women2.jpeg": "/samples/static/media/women2.beef0c1a7dff0e25109a.jpeg",
     "static/media/portfolio-img-11.jpg": "/samples/static/media/portfolio-img-11.a43d8a5f5d56f30677bf.jpg",
+    "static/media/child1.jpg": "/samples/static/media/child1.cdd7871c48a527f6f401.jpg",
     "static/media/portfolio-img-1.jpg": "/samples/static/media/portfolio-img-1.c93443275b1f74b3a286.jpg",
+    "static/media/women1.jpg": "/samples/static/media/women1.6da62eb4bdaf0fd9a44b.jpg",
+    "static/media/portfolio-img-14.jpg": "/samples/static/media/portfolio-img-14.7c24ebff4c13cc7923f7.jpg",
     "static/media/portfolio-img-5.jpg": "/samples/static/media/portfolio-img-5.b94b3683cd01055c847d.jpg",
     "static/media/portfolio-img-10.jpg": "/samples/static/media/portfolio-img-10.acef199b90f48174cc0b.jpg",
+    "static/media/women5.jpeg": "/samples/static/media/women5.4e58a87853c64f0de2c6.jpeg",
     "static/media/mask5.jpg": "/samples/static/media/mask5.a01d83d19315053d8991.jpg",
     "static/media/mask2.jpg": "/samples/static/media/mask2.ef6d6315953d44ed8769.jpg",
+    "static/media/women3.jpg": "/samples/static/media/women3.b9ea2361a828e48a1225.jpg",
+    "static/media/child4.jpg": "/samples/static/media/child4.ce8d3339f485f26333cd.jpg",
     "static/media/mask1.jpg": "/samples/static/media/mask1.368fcc29825d682693ce.jpg",
     "static/media/portfolio-img-3.jpg": "/samples/static/media/portfolio-img-3.f465c9c7afaa258be8d4.jpg",
     "static/media/mask8.jpg": "/samples/static/media/mask8.a1d020a7ec961c0dda87.jpg",
-    "static/media/mask4.jpg": "/samples/static/media/mask4.9cce3e31449fc56e715b.jpg",
     "static/media/mask3.jpg": "/samples/static/media/mask3.f331f46f3bfef0232ce4.jpg",
     "static/media/hero-image.jpg": "/samples/static/media/hero-image.59d3a5865bec008843f7.jpg",
+    "static/media/mask4.jpg": "/samples/static/media/mask4.262b57173966982b87da.jpg",
     "static/media/portfolio-img-6.jpg": "/samples/static/media/portfolio-img-6.6792d49878e08790542d.jpg",
     "static/media/portfolio-img-8.jpg": "/samples/static/media/portfolio-img-8.bdd04fe562eeb19c4c20.jpg",
     "static/media/portfolio-img-7.jpg": "/samples/static/media/portfolio-img-7.9f80a3a974d8bddcc194.jpg",
@@ -21,16 +31,19 @@
     "static/media/mask6.jpeg": "/samples/static/media/mask6.67f01c1b1765c9c80f85.jpeg",
     "static/media/portfolio-img-4.jpg": "/samples/static/media/portfolio-img-4.4f5be9c60812bd3fe5c4.jpg",
     "static/media/Mountain-t-shirts-logo.png": "/samples/static/media/Mountain-t-shirts-logo.4dd40ecb8a2a769fa9a6.png",
-    "static/media/portfolio-img-2.jpg": "/samples/static/media/portfolio-img-2.ec8034481ea0a3cb0ee2.jpg",
+    "static/media/child3.jpg": "/samples/static/media/child3.239af072b139acb12d0e.jpg",
+    "static/media/portfolio-img-2.jpg": "/samples/static/media/portfolio-img-2.4257d8fac3b1ce21db65.jpg",
+    "static/media/child2.jpg": "/samples/static/media/child2.7a47aee7e2c6ccf8bf7c.jpg",
+    "static/media/portfolio-img-13.jpeg": "/samples/static/media/portfolio-img-13.598b06a713e658121692.jpeg",
     "static/media/mask7.jpg": "/samples/static/media/mask7.bfe5c238017dd3cf9337.jpg",
     "static/media/6pm.png": "/samples/static/media/6pm.3af283e886700b7e0777.png",
     "static/media/Amazon-logo.jpg": "/samples/static/media/Amazon-logo.c9025429d11b885452ea.jpg",
     "index.html": "/samples/index.html",
-    "main.64842abe.css.map": "/samples/static/css/main.64842abe.css.map",
-    "main.5aedd467.js.map": "/samples/static/js/main.5aedd467.js.map"
+    "main.039da427.css.map": "/samples/static/css/main.039da427.css.map",
+    "main.7a48d610.js.map": "/samples/static/js/main.7a48d610.js.map"
   },
   "entrypoints": [
-    "static/css/main.64842abe.css",
-    "static/js/main.5aedd467.js"
+    "static/css/main.039da427.css",
+    "static/js/main.7a48d610.js"
   ]
 }
