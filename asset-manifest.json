@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/samples/static/css/main.3a6258bb.css",
-    "main.js": "/samples/static/js/main.42579a1d.js",
+    "main.css": "/samples/static/css/main.793a2610.css",
+    "main.js": "/samples/static/js/main.ea1ac1c1.js",
     "static/media/portfolio-img-12.jpg": "/samples/static/media/portfolio-img-12.664864c9121ac3cec539.jpg",
     "static/media/portfolio-img-15.jpg": "/samples/static/media/portfolio-img-15.77bad3d6f1c9f50adea3.jpg",
     "static/media/women4.jpeg": "/samples/static/media/women4.9f454ce190456bcbff95.jpeg",
     "static/media/women2.jpeg": "/samples/static/media/women2.beef0c1a7dff0e25109a.jpeg",
+    "static/media/child6.jpg": "/samples/static/media/child6.396fcabdb925f7ac745c.jpg",
     "static/media/portfolio-img-11.jpg": "/samples/static/media/portfolio-img-11.a43d8a5f5d56f30677bf.jpg",
     "static/media/child1.jpg": "/samples/static/media/child1.cdd7871c48a527f6f401.jpg",
     "static/media/portfolio-img-1.jpg": "/samples/static/media/portfolio-img-1.c93443275b1f74b3a286.jpg",
@@ -24,10 +25,12 @@
     "static/media/mask3.jpg": "/samples/static/media/mask3.f331f46f3bfef0232ce4.jpg",
     "static/media/hero-image.jpg": "/samples/static/media/hero-image.59d3a5865bec008843f7.jpg",
     "static/media/mask4.jpg": "/samples/static/media/mask4.262b57173966982b87da.jpg",
+    "static/media/child5.jpg": "/samples/static/media/child5.40b1333307eaf4599038.jpg",
     "static/media/portfolio-img-6.jpg": "/samples/static/media/portfolio-img-6.6792d49878e08790542d.jpg",
     "static/media/portfolio-img-8.jpg": "/samples/static/media/portfolio-img-8.bdd04fe562eeb19c4c20.jpg",
     "static/media/portfolio-img-7.jpg": "/samples/static/media/portfolio-img-7.9f80a3a974d8bddcc194.jpg",
     "static/media/portfolio-img-9.jpg": "/samples/static/media/portfolio-img-9.785dc4dd9acfb0029e39.jpg",
+    "static/media/women6.jpg": "/samples/static/media/women6.dd3665dcb250b79eaf0b.jpg",
     "static/media/mask6.jpeg": "/samples/static/media/mask6.67f01c1b1765c9c80f85.jpeg",
     "static/media/portfolio-img-4.jpg": "/samples/static/media/portfolio-img-4.4f5be9c60812bd3fe5c4.jpg",
     "static/media/Mountain-t-shirts-logo.png": "/samples/static/media/Mountain-t-shirts-logo.4dd40ecb8a2a769fa9a6.png",
@@ -39,11 +42,11 @@
     "static/media/6pm.png": "/samples/static/media/6pm.3af283e886700b7e0777.png",
     "static/media/Amazon-logo.jpg": "/samples/static/media/Amazon-logo.c9025429d11b885452ea.jpg",
     "index.html": "/samples/index.html",
-    "main.3a6258bb.css.map": "/samples/static/css/main.3a6258bb.css.map",
-    "main.42579a1d.js.map": "/samples/static/js/main.42579a1d.js.map"
+    "main.793a2610.css.map": "/samples/static/css/main.793a2610.css.map",
+    "main.ea1ac1c1.js.map": "/samples/static/js/main.ea1ac1c1.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a6258bb.css",
-    "static/js/main.42579a1d.js"
+    "static/css/main.793a2610.css",
+    "static/js/main.ea1ac1c1.js"
   ]
 }
