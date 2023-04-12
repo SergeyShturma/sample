@@ -4,6 +4,7 @@ import s from './Layout.module.css';
 import { Footer } from './Footer';
 import { Suppliers } from './Suppliers';
 import { Arrow } from './Arrow';
+import RunningString from './RunningString';
 // import { Theme } from './Theme';
 
 export const Layout = () => {
@@ -17,30 +18,33 @@ export const Layout = () => {
             магазину в США.
           </h2>
           <div className={s.link__wrapper}>
-            <NavLink className={s.link} activeStyle={s.activeStyle} to="/">
+            <NavLink className={s.link} to="/">
               Футболки
             </NavLink>
-            <NavLink
-              className={s.link}
-              activeStyle={s.activeStyle}
-              to="/ShirtsWomen"
-            >
+            <NavLink className={s.link} to="/ShirtsWomen">
               Жіночі
             </NavLink>
-            <NavLink
-              className={s.link}
-              activeStyle={s.activeStyle}
-              to="/ShirtsChild"
-            >
+            <NavLink className={s.link} to="/ShirtsChild">
               Дитячі
             </NavLink>
-            <NavLink className={s.link} activeStyle={s.activeStyle} to="/Masks">
+            <NavLink className={s.link} to="/Masks">
               Маски
             </NavLink>
           </div>
-          <p className={s.link_info}>viber та telegram: (099) 044-88-74</p>
+          <p className={s.link_info}>viber та telegram: </p>
+          <a href="https://t.me/Serg_Shturma/" className={s.link_phone}>
+            (099) 044-88-74
+          </a>
+
+          <a
+            href="https://www.kidstaff.com.ua/userhistory-1085307.html"
+            className={s.link_feedback}
+          >
+            Відгуки
+          </a>
         </nav>
       </header>
+      <RunningString />
       {/* <Theme /> */}
       <Suspense fallback={<div>Loading page...</div>}>
         <Outlet />

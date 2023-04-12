@@ -12,9 +12,8 @@
   height: 50px;
   border: none;
   border-radius: 50%;
-  background-color: #bbdfca;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: #e2f8ff;
+  transition: all 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .iconToUp:hover,

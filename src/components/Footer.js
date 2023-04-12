@@ -8,7 +8,7 @@ export const Footer = () => {
         <p className={s.footer_margin}>
           Developed by Shturma
           {/* with */}
-          <svg
+          {/* <svg
             className={s.footer_icon}
             lang="en"
             aria-label="heart"
@@ -16,7 +16,7 @@ export const Footer = () => {
             height="13"
           >
             <use href="/src/images/sprite.svg#icon-heart"></use>
-          </svg>
+          </svg> */}
         </p>
       </div>
     </footer>
