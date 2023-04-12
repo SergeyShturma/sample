@@ -27,6 +27,20 @@ const dataShirtsChild = [
     link: 'https://www.kidstaff.com.ua/tema-33264023.html',
     id: 4,
   },
+  {
+    price: 0,
+    size: ['Розпродано!'],
+    image: require('../images/child5.jpg'),
+    link: '',
+    id: 5,
+  },
+  {
+    price: 0,
+    size: ['Розпродано!'],
+    image: require('../images/child6.jpg'),
+    link: '',
+    id: 6,
+  },
 ];
 
 export default dataShirtsChild;

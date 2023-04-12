@@ -34,6 +34,13 @@ const dataShirtsWomen = [
     link: 'https://www.kidstaff.com.ua/tema-32286980.html',
     id: 5,
   },
+  {
+    price: 0,
+    size: ['Розпродано!'],
+    image: require('../images/women6.jpg'),
+    link: '',
+    id: 6,
+  },
 ];
 
 export default dataShirtsWomen;

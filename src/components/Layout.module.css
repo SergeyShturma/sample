@@ -64,26 +64,34 @@ nav {
 
 .link_feedback:hover {
   font-size: 26px;
-  color: rgb(253, 255, 201);
+  color: #fff;
+  background-color: #ff6b08;
 }
 
 .link_feedback {
+  width: 110px;
+  text-align: center;
   text-decoration: none;
   font-style: italic;
   margin-left: auto;
   margin-right: 30px;
   margin-top: 0;
   margin-bottom: 0;
-  text-align: center;
   font-weight: 500;
   font-size: 24px;
   color: azure;
+  border: 1px solid rgb(227, 240, 151);
+  border-radius: 30px;
+  color: rgba(0, 0, 0, 0.56);
+  background-color: #e2f8ff;
   transition: all 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media screen and (max-width: 767px) {
   .link_feedback {
+    width: 85px;
     margin-right: 10px;
+    margin-top: 8px;
     font-size: 18px;
   }
 

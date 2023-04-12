@@ -4,7 +4,9 @@ import s from './Layout.module.css';
 import { Footer } from './Footer';
 import { Suppliers } from './Suppliers';
 import { Arrow } from './Arrow';
+import { Animation } from './Animation';
 import RunningString from './RunningString';
+import Loader from './Loader';
 // import { Theme } from './Theme';
 
 export const Layout = () => {
@@ -14,8 +16,8 @@ export const Layout = () => {
         <div className={s.banner}>#StandWithUKRAINE</div>
         <nav className={s.header}>
           <h2 className={s.header__logo_title}>
-            Якісний оригінальний одяг фірмового бренду The Mountain з офіційного
-            магазину в США.
+            Якісний оригінальний одяг фірмового бренду
+            <Animation /> з офіційного магазину в США.
           </h2>
           <div className={s.link__wrapper}>
             <NavLink className={s.link} to="/">
@@ -46,7 +48,7 @@ export const Layout = () => {
       </header>
       <RunningString />
       {/* <Theme /> */}
-      <Suspense fallback={<div>Loading page...</div>}>
+      <Suspense fallback={<Loader />}>
         <Outlet />
       </Suspense>
       <Suppliers />
