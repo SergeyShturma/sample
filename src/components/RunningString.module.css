@@ -1,5 +1,6 @@
 .string {
-  width: 102%;
+  font-style: italic;
+  width: 105%;
   height: 25px;
   background-color: rgb(180, 220, 220);
   font-size: 18px;
