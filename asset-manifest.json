@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/samples/static/css/main.793a2610.css",
-    "main.js": "/samples/static/js/main.ea1ac1c1.js",
+    "main.css": "/samples/static/css/main.e7343fb7.css",
+    "main.js": "/samples/static/js/main.87da0988.js",
     "static/media/portfolio-img-12.jpg": "/samples/static/media/portfolio-img-12.664864c9121ac3cec539.jpg",
     "static/media/portfolio-img-15.jpg": "/samples/static/media/portfolio-img-15.77bad3d6f1c9f50adea3.jpg",
     "static/media/women4.jpeg": "/samples/static/media/women4.9f454ce190456bcbff95.jpeg",
@@ -42,11 +42,11 @@
     "static/media/6pm.png": "/samples/static/media/6pm.3af283e886700b7e0777.png",
     "static/media/Amazon-logo.jpg": "/samples/static/media/Amazon-logo.c9025429d11b885452ea.jpg",
     "index.html": "/samples/index.html",
-    "main.793a2610.css.map": "/samples/static/css/main.793a2610.css.map",
-    "main.ea1ac1c1.js.map": "/samples/static/js/main.ea1ac1c1.js.map"
+    "main.e7343fb7.css.map": "/samples/static/css/main.e7343fb7.css.map",
+    "main.87da0988.js.map": "/samples/static/js/main.87da0988.js.map"
   },
   "entrypoints": [
-    "static/css/main.793a2610.css",
-    "static/js/main.ea1ac1c1.js"
+    "static/css/main.e7343fb7.css",
+    "static/js/main.87da0988.js"
   ]
 }
