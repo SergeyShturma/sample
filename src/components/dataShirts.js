@@ -10,7 +10,7 @@ const dataShirts = [
     price: 650,
     size: ['M, ', 'L, ', 'XL'],
     image: require('../images/portfolio-img-2.jpg'),
-    link: 'https://www.kidstaff.com.ua/tema-33371786.html',
+    link: 'https://www.kidstaff.com.ua/tema-30078566.html',
     id: 14,
   },
   {
@@ -42,8 +42,8 @@ const dataShirts = [
     id: 23,
   },
   {
-    price: 600,
-    size: ['M'],
+    price: 0,
+    size: ['Розпродано!'],
     image: require('../images/portfolio-img-7.jpg'),
     link: 'https://www.kidstaff.com.ua/tema-30078566.html',
     id: 25,
