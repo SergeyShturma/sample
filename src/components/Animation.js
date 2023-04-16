@@ -4,13 +4,13 @@ import s from './Animation.module.css';
 export const Animation = () => {
   return (
     <ConicTextGradient
-      angle={45}
+      angle={0}
       className={s.brand}
       animate
       animateDuration={10}
-      animateDirection={'diagonal'}
+      animateDirection={'horizontal'}
       position={'center'}
-      colors={['#5DADE2', '#ffff00']}
+      colors={['#00ff00 25%', '#ffff00 75%']}
     >
       &nbsp;The Mountain
     </ConicTextGradient>

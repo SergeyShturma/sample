@@ -14,7 +14,7 @@ export const Footer = () => {
               animate
               animateDuration={6}
               position={'center'}
-              colors={['#5DADE2', '#D35400']}
+              colors={['#5DADE2 60%', '#D35400 60%']}
             >
               Shturma
             </ConicTextGradient>
