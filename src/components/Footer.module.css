@@ -31,7 +31,11 @@
 
 .footer_margin {
   margin: 0;
+  position: relative;
 }
+
+/* .footer_name {
+} */
 
 .footer_icon {
   animation: beat 0.7s ease infinite alternate;
