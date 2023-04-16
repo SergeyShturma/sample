@@ -1,4 +1,9 @@
-.select {
+.dropdown_wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown_select {
   border-radius: 50px;
   border-color: rgb(38, 0, 255);
   display: flex;
@@ -11,7 +16,18 @@
   color: rgb(121, 5, 5);
 }
 
-.select:hover,
-.select:focus {
+.dropdown_select:hover,
+.dropdown_select:focus {
   cursor: pointer;
+}
+
+.dropdown_text {
+  margin: 0 25px 0 auto;
+  font-size: 11px;
+}
+
+@media screen and (min-width: 768px) {
+  .dropdown_text {
+    font-size: 16px;
+  }
 }
