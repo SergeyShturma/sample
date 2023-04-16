@@ -1,18 +1,19 @@
 const dataShirts = [
   {
     price: 650,
-    size: ['L, ', 'XL'],
-    image: require('../images/portfolio-img-1.jpg'),
-    link: 'https://www.kidstaff.com.ua/tema-33371805.html',
+    size: ['M, ', 'L'],
+    image: require('../images/portfolio-img-2.jpg'),
+    link: 'https://www.kidstaff.com.ua/tema-30078566.html',
     id: 11,
   },
   {
     price: 650,
-    size: ['M, ', 'L'],
-    image: require('../images/portfolio-img-2.jpg'),
-    link: 'https://www.kidstaff.com.ua/tema-30078566.html',
+    size: ['L, ', 'XL'],
+    image: require('../images/portfolio-img-1.jpg'),
+    link: 'https://www.kidstaff.com.ua/tema-33371805.html',
     id: 14,
   },
+
   {
     price: 600,
     size: ['S, ', 'M, ', 'L, ', 'XL'],
@@ -98,11 +99,18 @@ const dataShirts = [
     id: 38,
   },
   {
+    price: 0,
+    size: ['Розпродано!'],
+    image: require('../images/portfolio-img-16.jpg'),
+    link: '',
+    id: 39,
+  },
+  {
     price: 400,
     size: ['M'],
     image: require('../images/portfolio-img-15.jpg'),
     link: 'https://www.kidstaff.com.ua/tema-32511534.html',
-    id: 39,
+    id: 40,
   },
 ];
 

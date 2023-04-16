@@ -11,8 +11,7 @@ export const Animation = () => {
     >
       {({ opacity }) => (
         <span style={{ opacity }} className={s.brand}>
-          {' '}
-          The Mountain
+          &nbsp;The Mountain
         </span>
       )}
     </Animate>
