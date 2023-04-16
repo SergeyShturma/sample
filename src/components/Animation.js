@@ -1,19 +1,18 @@
-import Animate from 'react-smooth';
+import { ConicTextGradient } from 'react-text-gradients-and-animations';
 import s from './Animation.module.css';
 
 export const Animation = () => {
   return (
-    <Animate
-      from={{ opacity: 0 }}
-      to={{ opacity: 1 }}
-      easing="ease-in"
-      onAnimationEnd={() => Animation()}
+    <ConicTextGradient
+      angle={45}
+      className={s.brand}
+      animate
+      animateDuration={10}
+      animateDirection={'diagonal'}
+      position={'center'}
+      colors={['#5DADE2', '#ffff00']}
     >
-      {({ opacity }) => (
-        <span style={{ opacity }} className={s.brand}>
-          &nbsp;The Mountain
-        </span>
-      )}
-    </Animate>
+      &nbsp;The Mountain
+    </ConicTextGradient>
   );
 };

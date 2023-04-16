@@ -1,4 +1,5 @@
 import s from './Footer.module.css';
+import { ConicTextGradient } from 'react-text-gradients-and-animations';
 
 export const Footer = () => {
   return (
@@ -6,7 +7,18 @@ export const Footer = () => {
       <div className={s.footer_section}>
         <p className={s.footer_text}> 2023 | All Rights Reserved |&nbsp;</p>
         <p className={s.footer_margin}>
-          Developed by <span className={s.footer_name}>Shturma</span>
+          Developed by{' '}
+          <span className={s.footer_name}>
+            <ConicTextGradient
+              angle={45}
+              animate
+              animateDuration={6}
+              position={'center'}
+              colors={['#5DADE2', '#D35400']}
+            >
+              Shturma
+            </ConicTextGradient>
+          </span>
         </p>
       </div>
     </footer>
