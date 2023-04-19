@@ -11,7 +11,7 @@ import { FcCellPhone } from 'react-icons/fc';
 import { RiSurgicalMaskLine } from 'react-icons/ri';
 import { TbMoodKid } from 'react-icons/tb';
 import { IoWomanOutline, IoShirtOutline } from 'react-icons/io5';
-import { TbShirt } from 'react-icons/tb';
+
 // import { Theme } from './Theme';
 
 export const Layout = () => {
