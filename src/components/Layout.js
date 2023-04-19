@@ -7,6 +7,11 @@ import { Arrow } from './Arrow';
 import { Animation } from './Animation';
 import RunningString from './RunningString';
 import Loader from './Loader';
+import { FcCellPhone } from 'react-icons/fc';
+import { RiSurgicalMaskLine } from 'react-icons/ri';
+import { TbMoodKid } from 'react-icons/tb';
+import { IoWomanOutline, IoShirtOutline } from 'react-icons/io5';
+import { TbShirt } from 'react-icons/tb';
 // import { Theme } from './Theme';
 
 export const Layout = () => {
@@ -21,21 +26,26 @@ export const Layout = () => {
           </h2>
           <div className={s.link__wrapper}>
             <NavLink className={s.link} to="/">
-              Футболки
+              <IoShirtOutline className={s.link_icon_kid} />
+              &nbsp;Футболки
             </NavLink>
             <NavLink className={s.link} to="/ShirtsWomen">
-              Жіночі
+              <IoWomanOutline className={s.link_icon_kid} />
+              &nbsp;Жіночі
             </NavLink>
             <NavLink className={s.link} to="/ShirtsChild">
-              Дитячі
+              <TbMoodKid className={s.link_icon_kid} />
+              &nbsp;Дитячі
             </NavLink>
             <NavLink className={s.link} to="/Masks">
-              Маски
+              <RiSurgicalMaskLine className={s.link_icon} />
+              &nbsp;Маски
             </NavLink>
           </div>
           <p className={s.link_info}>viber та telegram: </p>
-          <a href="https://t.me/Serg_Shturma/" className={s.link_phone}>
-            (099) 044-88-74
+          <a href="https://t.me/Serg_Shturma/" className={s.link_phone_wrapper}>
+            <FcCellPhone />
+            <p className={s.link_phone}>(099) 044-88-74</p>
           </a>
 
           <a
