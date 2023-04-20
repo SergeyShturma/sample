@@ -25,21 +25,41 @@ export const Layout = () => {
             <Animation /> з офіційного магазину в США.
           </h2>
           <div className={s.link__wrapper}>
-            <NavLink className={s.link} to="/">
-              <IoShirtOutline className={s.link_icon_kid} />
-              &nbsp;Футболки
+            <NavLink
+              className={({ isActive }) =>
+                `${s.link} ${isActive ? s.active : ''}`
+              }
+              to="/"
+            >
+              <IoShirtOutline className={s.link_icon_all} />
+              <p className={s.link_text}>Футболки</p>
             </NavLink>
-            <NavLink className={s.link} to="/ShirtsWomen">
+            <NavLink
+              className={({ isActive }) =>
+                `${s.link} ${isActive ? s.active : ''}`
+              }
+              to="/ShirtsWomen"
+            >
               <IoWomanOutline className={s.link_icon_kid} />
-              &nbsp;Жіночі
+              <p className={s.link_text}>Жіночі</p>
             </NavLink>
-            <NavLink className={s.link} to="/ShirtsChild">
+            <NavLink
+              className={({ isActive }) =>
+                `${s.link} ${isActive ? s.active : ''}`
+              }
+              to="/ShirtsChild"
+            >
               <TbMoodKid className={s.link_icon_kid} />
-              &nbsp;Дитячі
+              <p className={s.link_text}>Дитячі</p>
             </NavLink>
-            <NavLink className={s.link} to="/Masks">
+            <NavLink
+              className={({ isActive }) =>
+                `${s.link} ${isActive ? s.active : ''}`
+              }
+              to="/Masks"
+            >
               <RiSurgicalMaskLine className={s.link_icon} />
-              &nbsp;Маски
+              <p className={s.link_text}>Маски</p>
             </NavLink>
           </div>
           <p className={s.link_info}>viber та telegram: </p>
