@@ -1,4 +1,9 @@
+import { format } from 'date-fns';
+
 import s from './DropDown.module.css';
+
+const myDate = new Date();
+const formattedDate = format(myDate, 'dd.MM.yyyy');
 
 const DropDown = ({ setSortDir }) => (
   <div className={s.dropdown_wrapper}>
@@ -10,7 +15,9 @@ const DropDown = ({ setSortDir }) => (
       <option value="lowtohigh">ціна: low to high </option>
       <option value="hightolow">ціна: high to low </option>
     </select>
-    <p className={s.dropdown_text}>*Ціни та наявність актуальні.</p>
+    <p className={s.dropdown_text}>
+      *Ціни та наявність актуальні на {formattedDate}
+    </p>
   </div>
 );
 
