@@ -1,18 +1,18 @@
 import { Suspense } from 'react';
 import { Outlet, NavLink } from 'react-router-dom';
-import s from './Layout.module.css';
-import { Footer } from './Footer';
-import { Suppliers } from './Suppliers';
-import { Arrow } from './Arrow';
-import { Animation } from './Animation';
-import RunningString from './RunningString';
-import Loader from './Loader';
 import { FcCellPhone } from 'react-icons/fc';
 import { RiSurgicalMaskLine } from 'react-icons/ri';
 import { TbMoodKid } from 'react-icons/tb';
 import { IoWomanOutline, IoShirtOutline } from 'react-icons/io5';
 
-// import { Theme } from './Theme';
+import s from './Layout.module.css';
+
+import { Footer } from '../Footer/Footer';
+import { Arrow } from '../Arrow/Arrow';
+import RunningString from '../RunningString/RunningString';
+import { Suppliers } from '../Suppliers/Suppliers';
+import { AnimationLogo } from '../AnimationLogo/AnimationLogo';
+import Loader from 'components/Loader/Loader';
 
 export const Layout = () => {
   return (
@@ -22,7 +22,7 @@ export const Layout = () => {
         <nav className={s.header}>
           <h2 className={s.header__logo_title}>
             Якісний оригінальний одяг фірмового бренду
-            <Animation /> з офіційного магазину в США.
+            <AnimationLogo /> з офіційного магазину в США.
           </h2>
           <div className={s.link__wrapper}>
             <NavLink
@@ -38,7 +38,7 @@ export const Layout = () => {
               className={({ isActive }) =>
                 `${s.link} ${isActive ? s.active : ''}`
               }
-              to="/ShirtsWomen"
+              to="/ShirtsWomenPage"
             >
               <IoWomanOutline className={s.link_icon_kid} />
               <p className={s.link_text}>Жіночі</p>
@@ -47,7 +47,7 @@ export const Layout = () => {
               className={({ isActive }) =>
                 `${s.link} ${isActive ? s.active : ''}`
               }
-              to="/ShirtsChild"
+              to="/ShirtsChildPage"
             >
               <TbMoodKid className={s.link_icon_kid} />
               <p className={s.link_text}>Дитячі</p>
@@ -56,7 +56,7 @@ export const Layout = () => {
               className={({ isActive }) =>
                 `${s.link} ${isActive ? s.active : ''}`
               }
-              to="/Masks"
+              to="/MasksPage"
             >
               <RiSurgicalMaskLine className={s.link_icon} />
               <p className={s.link_text}>Маски</p>

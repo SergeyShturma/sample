@@ -1,19 +1,25 @@
 import { Routes, Route } from 'react-router-dom';
-import { Layout } from './Layout';
-import Shirts from './Shirts';
-import Masks from './Masks';
-import ShirtsChild from './ShirtsChild';
-import ShirtsWomen from './ShirtsWomen';
+import { lazy } from 'react';
+
+import { Layout } from './Layout/Layout';
+const ShirtsWomenPage = lazy(() =>
+  import('pages/ShirtsWomenPage/ShirtsWomenPage')
+);
+const ShirtsChildPage = lazy(() =>
+  import('pages/ShirtsChildPage/ShirtsChildPage')
+);
+const MasksPage = lazy(() => import('pages/MasksPage/MasksPage'));
+const ShirtsPage = lazy(() => import('pages/ShirtsPage/ShirtsPage'));
 
 const App = () => {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
-        <Route index element={<Shirts />} />
-        <Route path="shirtswomen" element={<ShirtsWomen />} />
-        <Route path="shirtschild" element={<ShirtsChild />} />
-        <Route path="masks" element={<Masks />} />
-        <Route path="*" element={<Shirts />} />
+        <Route index element={<ShirtsPage />} />
+        <Route path="shirtswomenpage" element={<ShirtsWomenPage />} />
+        <Route path="shirtschildpage" element={<ShirtsChildPage />} />
+        <Route path="maskspage" element={<MasksPage />} />
+        <Route path="*" element={<ShirtsPage />} replace={true} />
       </Route>
     </Routes>
   );

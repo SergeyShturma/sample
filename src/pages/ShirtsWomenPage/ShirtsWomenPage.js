@@ -1,8 +1,9 @@
-import DropDown from 'hooks/DropDown';
-import SortingWomen from 'hooks/SortingWomen';
 import React, { useState } from 'react';
 
-const ShirtsWomen = () => {
+import DropDown from 'hooks/DropDown/DropDown';
+import SortingWomen from 'hooks/SortingWomen';
+
+const ShirtsWomenPage = () => {
   const [sortDir, setSortDir] = useState('default');
 
   return (
@@ -13,4 +14,4 @@ const ShirtsWomen = () => {
   );
 };
 
-export default ShirtsWomen;
+export default ShirtsWomenPage;

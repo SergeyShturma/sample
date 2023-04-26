@@ -1,8 +1,9 @@
-import DropDown from 'hooks/DropDown';
-import SortingChild from 'hooks/SortingChild';
 import React, { useState } from 'react';
 
-const ShirtsChild = () => {
+import SortingChild from 'hooks/SortingChild';
+import DropDown from 'hooks/DropDown/DropDown';
+
+const ShirtsChildPage = () => {
   const [sortDir, setSortDir] = useState('default');
 
   return (
@@ -13,4 +14,4 @@ const ShirtsChild = () => {
   );
 };
 
-export default ShirtsChild;
+export default ShirtsChildPage;

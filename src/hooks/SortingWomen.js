@@ -1,6 +1,7 @@
 import React, { useMemo } from 'react';
-import dataShirtsWomen from 'components/dataShirtsWomen';
-import s from 'components/ShirtsWomen.module.css';
+
+import dataShirtsWomen from '../components/data/dataShirtsWomen';
+import s from '../pages/ShirtsWomenPage/ShirtsWomenPage.module.css';
 
 const SortingWomen = ({ sortDir }) => {
   const sortedRecords = useMemo(

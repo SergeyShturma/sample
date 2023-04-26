@@ -1,6 +1,7 @@
 import React, { useMemo } from 'react';
-import dataShirtsChild from 'components/dataShirtsChild';
-import s from 'components/ShirtsChild.module.css';
+
+import dataShirtsChild from '../components/data/dataShirtsChild';
+import s from '../pages/ShirtsChildPage/ShirtsChildPage.module.css';
 
 const SortingChild = ({ sortDir }) => {
   const sortedRecords = useMemo(

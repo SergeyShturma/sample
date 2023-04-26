@@ -1,6 +1,7 @@
-import s from 'components/Masks.module.css';
-import dataMasks from 'components/dataMasks';
 import React, { useMemo } from 'react';
+
+import s from '../pages/MasksPage/MasksPage.module.css';
+import dataMasks from '../components/data/dataMasks';
 
 const SortingMasks = ({ sortDir }) => {
   const sortedRecords = useMemo(

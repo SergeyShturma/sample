@@ -1,6 +1,7 @@
 import React, { useMemo } from 'react';
-import dataShirts from 'components/dataShirts';
-import s from 'components/Shirts.module.css';
+
+import dataShirts from '../components/data/dataShirts';
+import s from '../pages/ShirtsPage/ShirtsPage.module.css';
 
 const Sorting = ({ sortDir }) => {
   const sortedRecords = useMemo(
@@ -9,8 +10,6 @@ const Sorting = ({ sortDir }) => {
         if (sortDir === 'lowtohigh') return a.price - b.price;
         else if (sortDir === 'hightolow') return b.price - a.price;
         else return a.id - b.id;
-
-        // sortDir === 'lowtohigh' ? a.price - b.price : b.price - a.price;
       }),
     [sortDir]
   );

@@ -1,8 +1,9 @@
-import DropDown from 'hooks/DropDown';
 import React, { useState } from 'react';
-import SortingMasks from 'hooks/SortingMasks';
 
-const Masks = () => {
+import SortingMasks from 'hooks/SortingMasks';
+import DropDown from 'hooks/DropDown/DropDown';
+
+const MasksPage = () => {
   const [sortDir, setSortDir] = useState('default');
 
   return (
@@ -13,4 +14,4 @@ const Masks = () => {
   );
 };
 
-export default Masks;
+export default MasksPage;

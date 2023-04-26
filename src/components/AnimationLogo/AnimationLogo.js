@@ -1,7 +1,8 @@
 import { ConicTextGradient } from 'react-text-gradients-and-animations';
-import s from './Animation.module.css';
 
-export const Animation = () => {
+import s from './AnimationLogo.module.css';
+
+export const AnimationLogo = () => {
   return (
     <ConicTextGradient
       angle={0}
