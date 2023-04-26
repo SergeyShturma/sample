@@ -40,7 +40,7 @@ export const Layout = () => {
               }
               to="/ShirtsWomenPage"
             >
-              <IoWomanOutline className={s.link_icon_kid} />
+              <IoWomanOutline className={s.link_icon_women} />
               <p className={s.link_text}>Жіночі</p>
             </NavLink>
             <NavLink
@@ -64,7 +64,7 @@ export const Layout = () => {
           </div>
           <p className={s.link_info}>viber та telegram: </p>
           <a href="https://t.me/Serg_Shturma/" className={s.link_phone_wrapper}>
-            <FcCellPhone />
+            <FcCellPhone className={s.phone_icon} />
             <p className={s.link_phone}>(099) 044-88-74</p>
           </a>
 
