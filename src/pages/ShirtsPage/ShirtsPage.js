@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import DropDown from 'hooks/DropDown/DropDown';
 import Sorting from 'hooks/Sorting';
+import ImgCarousel from 'components/ImgCarousel/ImgCarousel';
 
 const ShirtsPage = () => {
   const [sortDir, setSortDir] = useState('default');
@@ -9,6 +10,7 @@ const ShirtsPage = () => {
   return (
     <>
       <DropDown setSortDir={setSortDir} />
+      <ImgCarousel />
       <Sorting sortDir={sortDir} />
     </>
   );

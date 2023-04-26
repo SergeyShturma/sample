@@ -4,7 +4,7 @@ import { BsArrowUpCircle } from 'react-icons/bs';
 
 export const Arrow = () => {
   return (
-    <ScrollToTop className={s.btnToUp} showUnder={160}>
+    <ScrollToTop className={s.btnToUp} showUnder={180}>
       <BsArrowUpCircle className={s.iconToUp} />
     </ScrollToTop>
   );
