@@ -1,4 +1,5 @@
 import Marquee from 'react-fast-marquee';
+
 import s from './RunningString.module.css';
 
 export default function RunningString() {

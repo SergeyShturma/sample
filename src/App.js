@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import { lazy } from 'react';
 
-import { Layout } from './Layout/Layout';
+import { Layout } from './components/Layout/Layout';
 const ShirtsWomenPage = lazy(() =>
   import('pages/ShirtsWomenPage/ShirtsWomenPage')
 );

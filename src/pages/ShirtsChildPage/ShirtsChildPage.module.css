@@ -66,22 +66,22 @@
   text-align: center;
 }
 
-@media screen and (min-width: 1280px) {
+/* @media screen and (min-width: 1280px) {
   .portfolio__wrapper {
     width: 400px;
   }
-}
+} */
 
 .portfolio__pic {
   max-height: 360px;
   width: 100%;
 }
 
-/* @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .portfolio__pic {
-    height: 360px;
+    max-height: 500px;
   }
-} */
+}
 
 .portfolio__title_code {
   position: absolute;
