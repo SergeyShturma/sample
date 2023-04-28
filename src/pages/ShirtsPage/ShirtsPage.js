@@ -10,8 +10,8 @@ const ShirtsPage = () => {
   return (
     <>
       <DropDown setSortDir={setSortDir} />
-      <ImgCarousel />
       <Sorting sortDir={sortDir} />
+      <ImgCarousel />
     </>
   );
 };

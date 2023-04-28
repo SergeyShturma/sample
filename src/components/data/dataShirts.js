@@ -21,11 +21,25 @@ const dataShirts = [
     id: 14,
   },
   {
-    price: 600,
+    price: 650,
+    size: ['L, ', 'XL'],
+    image: require('../../images/portfolio-img-19.jpg'),
+    link: 'https://www.kidstaff.com.ua/tema-33428858.html',
+    id: 15,
+  },
+  {
+    price: 650,
     size: ['S, ', 'M, ', 'L, ', 'XL'],
     image: require('../../images/portfolio-img-3.jpg'),
     link: 'https://www.kidstaff.com.ua/tema-32681798.html',
     id: 16,
+  },
+  {
+    price: 650,
+    size: ['L, ', 'XL'],
+    image: require('../../images/portfolio-img-18.jpg'),
+    link: 'https://www.kidstaff.com.ua/tema-33428821.html',
+    id: 17,
   },
   {
     price: 600,

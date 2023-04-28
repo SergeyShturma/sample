@@ -10,8 +10,8 @@ const ShirtsChildPage = () => {
   return (
     <>
       <DropDown setSortDir={setSortDir} />
-      <ImgCarousel />
       <SortingChild sortDir={sortDir} />
+      <ImgCarousel />
     </>
   );
 };
