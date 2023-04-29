@@ -31,7 +31,7 @@ const dataMasks = [
   },
   {
     price: 200,
-    image: require('../../images/mask6.jpeg'),
+    image: require('../../images/mask6.jpg'),
     link: 'https://www.kidstaff.com.ua/tema-32646875.html',
     id: 6,
   },

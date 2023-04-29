@@ -9,7 +9,7 @@ const dataShirtsWomen = [
   {
     price: 450,
     size: ['S'],
-    image: require('../../images/women2.jpeg'),
+    image: require('../../images/women2.jpg'),
     link: 'https://www.kidstaff.com.ua/tema-32286980.html',
     id: 2,
   },
@@ -23,14 +23,14 @@ const dataShirtsWomen = [
   {
     price: 450,
     size: ['M'],
-    image: require('../../images/women4.jpeg'),
+    image: require('../../images/women4.jpg'),
     link: 'https://www.kidstaff.com.ua/tema-32286980.html',
     id: 4,
   },
   {
     price: 450,
     size: ['S'],
-    image: require('../../images/women5.jpeg'),
+    image: require('../../images/women5.jpg'),
     link: 'https://www.kidstaff.com.ua/tema-32286980.html',
     id: 5,
   },

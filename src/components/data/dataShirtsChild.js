@@ -21,32 +21,39 @@ const dataShirtsChild = [
     id: 3,
   },
   {
+    price: 0,
+    size: ['Розпродано!'],
+    image: require('../../images/child8.jpg'),
+    link: '',
+    id: 4,
+  },
+  {
     price: 450,
     size: ['L'],
     image: require('../../images/child4.jpg'),
     link: 'https://www.kidstaff.com.ua/tema-33155821.html',
-    id: 4,
+    id: 5,
   },
   {
     price: 500,
     size: ['L'],
     image: require('../../images/child5.jpg'),
     link: 'https://www.kidstaff.com.ua/tema-33264023.html',
-    id: 5,
+    id: 6,
   },
   {
     price: 0,
     size: ['Розпродано!'],
     image: require('../../images/child6.jpg'),
     link: '',
-    id: 6,
+    id: 7,
   },
   {
     price: 0,
     size: ['Розпродано!'],
     image: require('../../images/child7.jpg'),
     link: '',
-    id: 7,
+    id: 8,
   },
 ];
 

@@ -2,7 +2,7 @@ const dataShirts = [
   {
     price: 650,
     size: ['M, ', 'L, ', 'XL'],
-    image: require('../../images/portfolio-img-17.jpeg'),
+    image: require('../../images/portfolio-img-17.jpg'),
     link: 'https://www.kidstaff.com.ua/tema-33428672.html',
     id: 11,
   },
@@ -107,9 +107,16 @@ const dataShirts = [
   {
     price: 400,
     size: ['M'],
-    image: require('../../images/portfolio-img-13.jpeg'),
+    image: require('../../images/portfolio-img-13.jpg'),
     link: 'https://www.kidstaff.com.ua/tema-32511574.html',
     id: 36,
+  },
+  {
+    price: 0,
+    size: ['Розпродано!'],
+    image: require('../../images/portfolio-img-20.jpg'),
+    link: '',
+    id: 37,
   },
   {
     price: 450,

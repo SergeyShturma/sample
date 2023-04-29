@@ -61,7 +61,7 @@ export default function ImgCarousel() {
       <div>
         <img
           className={s.item}
-          src={require('../../images/mask6.jpeg')}
+          src={require('../../images/mask6.jpg')}
           alt="mask"
         />
         {/* <p className="legend">200 грн</p> */}
