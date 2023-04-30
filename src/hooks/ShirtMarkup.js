@@ -8,7 +8,11 @@ const ShirtMarkup = ({ sortedIems }) => {
           <li key={index} className={s.portfolio__item}>
             <div className={s.portfolio__box}>
               <div className={s.portfolio__wrapper}>
-                <img className={s.portfolio__pic} src={image} alt="t-shirt" />
+                <img
+                  className={s.portfolio__pic}
+                  src={image[0]}
+                  alt="t-shirt"
+                />
                 <p className={s.portfolio__title_code}>#{id}</p>
                 <p className={s.portfolio__overlay}>
                   Перейдіть за посиланням <br />

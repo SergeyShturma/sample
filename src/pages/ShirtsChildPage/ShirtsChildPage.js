@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import SortingChild from 'hooks/SortingChild';
 import DropDown from 'hooks/DropDown/DropDown';
 import ImgCarousel from 'components/ImgCarousel/ImgCarousel';
+import dataMasks from 'components/data/dataMasks';
 
 const ShirtsChildPage = () => {
   const [sortDir, setSortDir] = useState('default');
@@ -11,7 +12,7 @@ const ShirtsChildPage = () => {
     <>
       <DropDown setSortDir={setSortDir} />
       <SortingChild sortDir={sortDir} />
-      <ImgCarousel />
+      <ImgCarousel data={dataMasks} />
     </>
   );
 };
