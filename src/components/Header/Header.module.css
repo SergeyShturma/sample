@@ -156,10 +156,19 @@ header {
   background-color: rgb(239, 239, 142, 0.5);
 }
 
-.active .link_icon,
+/* .active .link_icon,
 .active .link_icon_kid {
-  transform: rotate(360deg);
+  animation: rotate 5s infinite linear;
+  -webkit-animation: rotate 5s infinite linear;
 }
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
 
 .link_icon {
   margin-right: 20px;

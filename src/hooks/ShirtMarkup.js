@@ -1,60 +1,89 @@
+// import SizeOptions from 'components/SizeOptions/SizeOptions';
 import s from '../pages/ShirtsWomenPage/ShirtsWomenPage.module.css';
 
-const ShirtMarkup = ({ sortedIems }) => {
+const ShirtMarkup = ({ sortedItems }) => {
+  // let filteredItems;
+  // const handleSelected = (s, filteredItems) => {
+  //   if (s === 'S') {
+  //     console.log(sortedItems);
+  //     filteredItems = sortedItems =>
+  //       [...sortedItems].filter(({ size }) => size.toString().includes(s));
+  //   } else if (s === 'M') {
+  //     console.log(sortedItems);
+  //     filteredItems = sortedItems =>
+  //       [...sortedItems].filter(({ size }) => size.toString().includes(s));
+  //   } else if (s === 'L') {
+  //     console.log(sortedItems);
+  //     filteredItems = sortedItems =>
+  //       [...sortedItems].filter(({ size }) => size.toString().includes(s));
+  //   } else if (s === 'XL') {
+  //     console.log(sortedItems);
+  //     filteredItems = sortedItems =>
+  //       [...sortedItems].filter(({ size }) => size.toString().includes(s));
+  //   } else {
+  //     console.log(sortedItems);
+  //     filteredItems = [...sortedItems];
+  //   }
+  //   return filteredItems;
+  // };
+  // console.log(filteredItems);
   return (
-    <div className={s.portfolio__examples}>
-      {sortedIems.map(({ id, price, size, image, link }, index) =>
-        price ? (
-          <li key={index} className={s.portfolio__item}>
-            <div className={s.portfolio__box}>
-              <div className={s.portfolio__wrapper}>
-                <img
-                  className={s.portfolio__pic}
-                  src={image[0]}
-                  alt="t-shirt"
-                />
-                <p className={s.portfolio__title_code}>#{id}</p>
-                <p className={s.portfolio__overlay}>
-                  Перейдіть за посиланням <br />
-                  для детальніх замірів та <br />
-                  додаткових фото <br />
-                </p>
+    <>
+      {/* <SizeOptions handleSelected={handleSelected} /> */}
+      <div className={s.portfolio__examples}>
+        {sortedItems.map(({ id, price, size, image, link }, index) =>
+          price ? (
+            <li key={index} className={s.portfolio__item}>
+              <div className={s.portfolio__box}>
+                <div className={s.portfolio__wrapper}>
+                  <img
+                    className={s.portfolio__pic}
+                    src={image[0]}
+                    alt="t-shirt"
+                  />
+                  <p className={s.portfolio__title_code}>#{id}</p>
+                  <p className={s.portfolio__overlay}>
+                    Перейдіть за посиланням <br />
+                    для детальніх замірів та <br />
+                    додаткових фото <br />
+                  </p>
+                </div>
+                <div className={s.portfolio__subtitle}>
+                  <a
+                    className={s.portfolio__title_link}
+                    href={link}
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    Детальніше
+                  </a>
+                  <h2 className={s.portfolio__title}>{size}</h2>
+                  <p className={s.portfolio__text}>{price} грн</p>
+                </div>
               </div>
-              <div className={s.portfolio__subtitle}>
-                <a
-                  className={s.portfolio__title_link}
-                  href={link}
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Детальніше
-                </a>
-                <h2 className={s.portfolio__title}>{size}</h2>
-                <p className={s.portfolio__text}>{price} грн</p>
+            </li>
+          ) : (
+            <li key={index} className={s.portfolio__item}>
+              <div className={s.portfolio__box}>
+                <div className={s.portfolio__wrapper}>
+                  <img className={s.portfolio__pic} src={image} alt="t-shirt" />
+                  <p className={s.portfolio__title_code}>#{id}</p>
+                  <p className={s.portfolio__overlay}>
+                    Розміри закінчилися. <br />
+                    Оберіть іншу модель <br />
+                  </p>
+                </div>
+                <div className={s.portfolio__subtitle}>
+                  <p className={s.portfolio__title_link}>Детальніше</p>
+                  <h2 className={s.portfolio__title}>{size}</h2>
+                  <p className={s.portfolio__text}>&nbsp;</p>
+                </div>
               </div>
-            </div>
-          </li>
-        ) : (
-          <li key={index} className={s.portfolio__item}>
-            <div className={s.portfolio__box}>
-              <div className={s.portfolio__wrapper}>
-                <img className={s.portfolio__pic} src={image} alt="t-shirt" />
-                <p className={s.portfolio__title_code}>#{id}</p>
-                <p className={s.portfolio__overlay}>
-                  Розміри закінчилися. <br />
-                  Оберіть іншу модель <br />
-                </p>
-              </div>
-              <div className={s.portfolio__subtitle}>
-                <p className={s.portfolio__title_link}>Детальніше</p>
-                <h2 className={s.portfolio__title}>{size}</h2>
-                <p className={s.portfolio__text}>&nbsp;</p>
-              </div>
-            </div>
-          </li>
-        )
-      )}
-    </div>
+            </li>
+          )
+        )}
+      </div>
+    </>
   );
 };
 

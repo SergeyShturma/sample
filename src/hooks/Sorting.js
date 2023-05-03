@@ -4,7 +4,7 @@ import dataShirts from '../components/data/dataShirts';
 import ShirtMarkup from './ShirtMarkup';
 
 const Sorting = ({ sortDir }) => {
-  const sortedIems = useMemo(
+  const sortedItems = useMemo(
     () =>
       [...dataShirts].sort((a, b) => {
         if (sortDir === 'lowtohigh') return a.price - b.price;
@@ -14,7 +14,7 @@ const Sorting = ({ sortDir }) => {
     [sortDir]
   );
 
-  return <ShirtMarkup sortedIems={sortedIems} />;
+  return <ShirtMarkup sortedItems={sortedItems} />;
 };
 
 export default Sorting;

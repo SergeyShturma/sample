@@ -4,7 +4,7 @@ import s from '../pages/MasksPage/MasksPage.module.css';
 import dataMasks from '../components/data/dataMasks';
 
 const SortingMasks = ({ sortDir }) => {
-  const sortedRecords = useMemo(
+  const sortedItems = useMemo(
     () =>
       [...dataMasks].sort((a, b) => {
         if (sortDir === 'lowtohigh') return a.price - b.price;
@@ -16,7 +16,7 @@ const SortingMasks = ({ sortDir }) => {
 
   return (
     <ul className={s.portfolio__examples}>
-      {sortedRecords.map(({ id, price, image, link }, index) => (
+      {sortedItems.map(({ id, price, image, link }, index) => (
         <li key={index} className={s.portfolio__item}>
           <div className={s.portfolio__box}>
             <div className={s.portfolio__wrapper}>
