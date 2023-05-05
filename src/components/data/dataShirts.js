@@ -1,7 +1,7 @@
 const dataShirts = [
   {
     price: 650,
-    size: ['L, ', 'XL'],
+    size: ['L', 'XL'],
     image: [
       require('../../images/shirts/portfolio-img-21.jpg'),
       require('../../images/shirts/portfolio-img-21a.jpg'),
@@ -11,7 +11,7 @@ const dataShirts = [
   },
   {
     price: 650,
-    size: ['M, ', 'XL'],
+    size: ['M', 'XL'],
     image: [
       require('../../images/shirts/portfolio-img-17.jpg'),
       require('../../images/shirts/portfolio-img-17a.jpg'),
@@ -21,7 +21,7 @@ const dataShirts = [
   },
   {
     price: 650,
-    size: ['S, ', 'M, ', 'L'],
+    size: ['S', 'M', 'L'],
     image: [require('../../images/shirts/portfolio-img-2.jpg')],
     link: 'https://www.kidstaff.com.ua/tema-30078566.html',
     id: 12,
@@ -35,14 +35,14 @@ const dataShirts = [
   },
   {
     price: 650,
-    size: ['L, ', 'XL'],
+    size: ['L', 'XL'],
     image: [require('../../images/shirts/portfolio-img-19.jpg')],
     link: 'https://www.kidstaff.com.ua/tema-33428858.html',
     id: 15,
   },
   {
     price: 650,
-    size: ['S, ', 'M, ', 'L, ', 'XL'],
+    size: ['S', 'M', 'L', 'XL'],
     image: [require('../../images/shirts/portfolio-img-3.jpg')],
     link: 'https://www.kidstaff.com.ua/tema-32681798.html',
     id: 16,
@@ -56,7 +56,7 @@ const dataShirts = [
   },
   {
     price: 600,
-    size: ['S, ', 'M'],
+    size: ['S', 'M'],
     image: [require('../../images/shirts/portfolio-img-4.jpg')],
     link: 'https://www.kidstaff.com.ua/tema-33264000.html',
     id: 19,

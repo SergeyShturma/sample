@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 
 import dataShirtsWomen from '../components/data/dataShirtsWomen';
-import ShirtMarkup from './ShirtMarkup';
+import SizeOptions from 'components/SizeOptions/SizeOptions';
 
 const SortingWomen = ({ sortDir }) => {
   const sortedItems = useMemo(
@@ -14,7 +14,7 @@ const SortingWomen = ({ sortDir }) => {
     [sortDir]
   );
 
-  return <ShirtMarkup sortedItems={sortedItems} />;
+  return <SizeOptions sortedItems={sortedItems} />;
 };
 
 export default SortingWomen;

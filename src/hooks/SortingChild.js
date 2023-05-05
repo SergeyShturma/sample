@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 
 import dataShirtsChild from '../components/data/dataShirtsChild';
-import ShirtMarkup from './ShirtMarkup';
+import SizeOptions from 'components/SizeOptions/SizeOptions';
 
 const SortingChild = ({ sortDir }) => {
   const sortedItems = useMemo(
@@ -14,7 +14,7 @@ const SortingChild = ({ sortDir }) => {
     [sortDir]
   );
 
-  return <ShirtMarkup sortedItems={sortedItems} />;
+  return <SizeOptions sortedItems={sortedItems} />;
 };
 
 export default SortingChild;

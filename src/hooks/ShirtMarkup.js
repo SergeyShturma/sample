@@ -1,35 +1,8 @@
-// import SizeOptions from 'components/SizeOptions/SizeOptions';
 import s from '../pages/ShirtsWomenPage/ShirtsWomenPage.module.css';
 
 const ShirtMarkup = ({ sortedItems }) => {
-  // let filteredItems;
-  // const handleSelected = (s, filteredItems) => {
-  //   if (s === 'S') {
-  //     console.log(sortedItems);
-  //     filteredItems = sortedItems =>
-  //       [...sortedItems].filter(({ size }) => size.toString().includes(s));
-  //   } else if (s === 'M') {
-  //     console.log(sortedItems);
-  //     filteredItems = sortedItems =>
-  //       [...sortedItems].filter(({ size }) => size.toString().includes(s));
-  //   } else if (s === 'L') {
-  //     console.log(sortedItems);
-  //     filteredItems = sortedItems =>
-  //       [...sortedItems].filter(({ size }) => size.toString().includes(s));
-  //   } else if (s === 'XL') {
-  //     console.log(sortedItems);
-  //     filteredItems = sortedItems =>
-  //       [...sortedItems].filter(({ size }) => size.toString().includes(s));
-  //   } else {
-  //     console.log(sortedItems);
-  //     filteredItems = [...sortedItems];
-  //   }
-  //   return filteredItems;
-  // };
-  // console.log(filteredItems);
   return (
     <>
-      {/* <SizeOptions handleSelected={handleSelected} /> */}
       <div className={s.portfolio__examples}>
         {sortedItems.map(({ id, price, size, image, link }, index) =>
           price ? (
@@ -57,7 +30,7 @@ const ShirtMarkup = ({ sortedItems }) => {
                   >
                     Детальніше
                   </a>
-                  <h2 className={s.portfolio__title}>{size}</h2>
+                  <h2 className={s.portfolio__title}>{size.join(', ')}</h2>
                   <p className={s.portfolio__text}>{price} грн</p>
                 </div>
               </div>
@@ -76,7 +49,15 @@ const ShirtMarkup = ({ sortedItems }) => {
                 <div className={s.portfolio__subtitle}>
                   <p className={s.portfolio__title_link}>Детальніше</p>
                   <h2 className={s.portfolio__title}>{size}</h2>
-                  <p className={s.portfolio__text}>&nbsp;</p>
+                  <p className={s.portfolio__text}>
+                    &nbsp;
+                    {/* <iframe
+                      title="Fun"
+                      className={s.gif}
+                      src="https://giphy.com/embed/kcerH6iby9Id8KRTHr"
+                      alt="gif"
+                    ></iframe> */}
+                  </p>
                 </div>
               </div>
             </li>
@@ -88,3 +69,5 @@ const ShirtMarkup = ({ sortedItems }) => {
 };
 
 export default ShirtMarkup;
+
+// <iframe src="https://giphy.com/embed/kcerH6iby9Id8KRTHr" width="480" height="400" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/Friends-season-1-episode-21-the-one-with-fake-monica-kcerH6iby9Id8KRTHr">via GIPHY</a></p>

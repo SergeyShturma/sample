@@ -1,4 +1,4 @@
-.button {
+/* .button {
   width: 44px;
   height: 26px;
   font-size: 15px;
@@ -12,18 +12,36 @@
   font-size: 18px;
   transform: scale(1.15);
   background-color: rgb(172, 240, 218);
-}
+} */
 
 .options {
   position: absolute;
+  left: 20px;
+  top: 480px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  padding: 0;
-  top: 80px;
+  gap: 8px;
+  z-index: 4;
 }
 
-@media screen and (max-width: 500px) {
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+.label {
+  color: rgb(30, 26, 26);
+}
+
+.checkbox {
+  width: 23px;
+  height: 23px;
+  cursor: pointer;
+}
+
+/* @media screen and (max-width: 500px) {
   .button {
     width: 28px;
     height: 18px;
@@ -34,8 +52,8 @@
     font-size: 11px;
     transform: scale(1.1);
   }
-}
-
+} */
+/* 
 @media screen and ((min-width: 768px) and (max-width: 960px)) {
   .options {
     flex-direction: row;
@@ -43,4 +61,4 @@
     gap: 5px;
     z-index: 2;
   }
-}
+} */
