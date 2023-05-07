@@ -22,13 +22,25 @@ const SizeOptions = ({ sortedItems }) => {
     item.size.some(s => selectedSizes.includes(s.trim()))
   );
 
+  const countBySize = sortedItems.reduce(
+    (acc, item) => {
+      item.size.forEach(size => {
+        if (options.includes(size)) {
+          acc[size]++;
+        }
+      });
+      return acc;
+    },
+    { S: 0, M: 0, L: 0, XL: 0 }
+  );
+
   return (
     <>
       <div className={s.options}>
         {options.map((option, index) => (
           <div className={s.wrapper} key={option}>
             <label className={s.label} htmlFor={index}>
-              {option}
+              {option}({countBySize[option]})
             </label>
             <input
               type="checkbox"
