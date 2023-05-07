@@ -166,18 +166,3 @@
 .portfolio__wrapper:focus .portfolio__overlay {
   transform: translateY(0);
 }
-
-/* .gif {
-  display: none;
-}
-
-@media screen and (max-width: 767px) {
-  .gif {
-    width: 100px;
-    height: 100px;
-    display: block;
-    border: none;
-    pointer-events: none;
-    background: none;
-  }
-} */

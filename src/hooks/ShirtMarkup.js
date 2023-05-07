@@ -49,15 +49,7 @@ const ShirtMarkup = ({ sortedItems }) => {
                 <div className={s.portfolio__subtitle}>
                   <p className={s.portfolio__title_link}>Детальніше</p>
                   <h2 className={s.portfolio__title}>{size}</h2>
-                  <p className={s.portfolio__text}>
-                    &nbsp;
-                    {/* <iframe
-                      title="Fun"
-                      className={s.gif}
-                      src="https://giphy.com/embed/kcerH6iby9Id8KRTHr"
-                      alt="gif"
-                    ></iframe> */}
-                  </p>
+                  <p className={s.portfolio__text}>&nbsp;</p>
                 </div>
               </div>
             </li>
@@ -69,5 +61,3 @@ const ShirtMarkup = ({ sortedItems }) => {
 };
 
 export default ShirtMarkup;
-
-// <iframe src="https://giphy.com/embed/kcerH6iby9Id8KRTHr" width="480" height="400" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/Friends-season-1-episode-21-the-one-with-fake-monica-kcerH6iby9Id8KRTHr">via GIPHY</a></p>

@@ -8,6 +8,9 @@ const formattedDate = format(myDate, 'dd.MM.yyyy');
 const DropDown = ({ setSortDir }) => {
   return (
     <div className={s.dropdown_wrapper}>
+      <p className={s.dropdown_text}>
+        *Ціни та наявність актуальні на {formattedDate}
+      </p>
       <select
         className={s.dropdown_select}
         onChange={e => setSortDir(e.target.value)}
@@ -16,9 +19,6 @@ const DropDown = ({ setSortDir }) => {
         <option value="lowtohigh">ціна: low to high </option>
         <option value="hightolow">ціна: high to low </option>
       </select>
-      <p className={s.dropdown_text}>
-        *Ціни та наявність актуальні на {formattedDate}
-      </p>
     </div>
   );
 };

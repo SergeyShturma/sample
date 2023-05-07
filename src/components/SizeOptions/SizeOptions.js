@@ -25,20 +25,37 @@ const SizeOptions = ({ sortedItems }) => {
   return (
     <>
       <div className={s.options}>
-        {options.map(option => (
+        {options.map((option, index) => (
           <div className={s.wrapper} key={option}>
-            <label className={s.label}>{option}</label>
+            <label className={s.label} htmlFor={index}>
+              {option}
+            </label>
             <input
               type="checkbox"
               className={s.checkbox}
               value={option}
+              id={index}
               onChange={e => handleSizeChange(e)}
             />
           </div>
         ))}
       </div>
       {selectedSizes.length ? (
-        <ShirtMarkup sortedItems={filteredArray} />
+        filteredArray.length ? (
+          <ShirtMarkup sortedItems={filteredArray} />
+        ) : (
+          <div className={s.gif_wrapper}>
+            <p className={s.gif_text}>
+              Оберіть інший розмір, бо цей вже розібрали...
+            </p>
+            <iframe
+              title="Fun"
+              className={s.gif}
+              src="https://giphy.com/embed/kcerH6iby9Id8KRTHr"
+              alt="gif"
+            ></iframe>
+          </div>
+        )
       ) : (
         <ShirtMarkup sortedItems={sortedItems} />
       )}
