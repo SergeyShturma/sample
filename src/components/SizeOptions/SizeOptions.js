@@ -26,7 +26,7 @@ const SizeOptions = ({ sortedItems }) => {
     (acc, item) => {
       item.size.forEach(size => {
         if (options.includes(size)) {
-          acc[size]++;
+          acc[size] += 1;
         }
       });
       return acc;

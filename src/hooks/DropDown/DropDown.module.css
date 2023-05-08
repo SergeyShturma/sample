@@ -2,7 +2,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  padding: 0 40px;
+  padding: 0 20px;
   margin-top: 5px;
 }
 
@@ -41,6 +41,10 @@
     height: 30px;
     font-size: 18px;
   }
+
+  .dropdown_wrapper {
+    padding: 0 40px;
+  }
 }
 
 @media screen and (max-width: 420px) {
@@ -49,6 +53,6 @@
   }
 
   .dropdown_wrapper {
-    padding: 0 18px;
+    padding: 0 7px;
   }
 }
