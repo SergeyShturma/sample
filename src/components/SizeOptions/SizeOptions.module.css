@@ -44,9 +44,16 @@
   }
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 455px) {
   .options {
-    left: 170px;
+    left: 183px;
+    top: 354px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .options {
+    left: 173px;
     gap: 3px;
   }
 }
@@ -139,5 +146,21 @@
   .gif {
     height: 300px;
     width: 400px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .label {
+    font-size: 14px;
+  }
+
+  .checkbox {
+    width: 20px;
+    height: 20px;
+  }
+
+  .checkbox:checked::before {
+    width: 20px;
+    height: 20px;
   }
 }
