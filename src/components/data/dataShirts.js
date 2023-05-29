@@ -27,10 +27,10 @@ const dataShirts = [
     id: 12,
   },
   {
-    price: 0,
-    size: ['Розпродано!'],
+    price: 650,
+    size: ['XL'],
     image: [require('../../images/shirts/portfolio-img-1.jpg')],
-    link: '',
+    link: 'https://www.kidstaff.com.ua/tema-33371805.html',
     id: 14,
   },
   {
