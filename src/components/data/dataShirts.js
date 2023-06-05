@@ -1,7 +1,7 @@
 const dataShirts = [
   {
     price: 650,
-    size: ['L', 'XL'],
+    size: ['XL'],
     image: [
       require('../../images/shirts/portfolio-img-21.jpg'),
       require('../../images/shirts/portfolio-img-21a.jpg'),
