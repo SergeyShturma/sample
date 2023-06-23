@@ -8,7 +8,7 @@ const dataShirtsChild = [
   },
   {
     price: 500,
-    size: ['M', 'L'],
+    size: ['M'],
     image: [require('../../images/child/child2.jpg')],
     link: 'https://www.kidstaff.com.ua/tema-32887236.html',
     id: 2,
