@@ -9,16 +9,16 @@ const dataShirts = [
     link: 'https://www.kidstaff.com.ua/tema-30078566.html',
     id: 10,
   },
-  {
-    price: 0,
-    size: ['Розпродано!'],
-    image: [
-      require('../../images/shirts/portfolio-img-17.jpg'),
-      require('../../images/shirts/portfolio-img-17a.jpg'),
-    ],
-    link: '',
-    id: 11,
-  },
+  // {
+  //   price: 0,
+  //   size: ['Розпродано!'],
+  //   image: [
+  //     require('../../images/shirts/portfolio-img-17.jpg'),
+  //     require('../../images/shirts/portfolio-img-17a.jpg'),
+  //   ],
+  //   link: '',
+  //   id: 11,
+  // },
   {
     price: 0,
     size: ['Розпродано!'],
