@@ -6,17 +6,17 @@ const dataShirts = [
       require('../../images/shirts/portfolio-img-21.jpg'),
       require('../../images/shirts/portfolio-img-21a.jpg'),
     ],
-    link: 'https://www.kidstaff.com.ua/tema-33433193.html',
+    link: 'https://www.kidstaff.com.ua/tema-30078566.html',
     id: 10,
   },
   {
-    price: 650,
-    size: ['XL'],
+    price: 0,
+    size: ['Розпродано!'],
     image: [
       require('../../images/shirts/portfolio-img-17.jpg'),
       require('../../images/shirts/portfolio-img-17a.jpg'),
     ],
-    link: 'https://www.kidstaff.com.ua/tema-31808036.html',
+    link: '',
     id: 11,
   },
   {
@@ -107,7 +107,7 @@ const dataShirts = [
     price: 550,
     size: ['M'],
     image: [require('../../images/shirts/portfolio-img-11.jpg')],
-    link: 'https://www.kidstaff.com.ua/tema-33233429.html',
+    link: 'https://www.kidstaff.com.ua/tema-31808036.html',
     id: 33,
   },
   {
