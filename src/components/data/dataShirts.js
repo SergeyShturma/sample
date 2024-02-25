@@ -55,7 +55,7 @@ const dataShirts = [
     id: 17,
   },
   {
-    price: 600,
+    price: 650,
     size: ['S'],
     image: [require('../../images/shirts/portfolio-img-4.jpg')],
     link: 'https://www.kidstaff.com.ua/tema-33264000.html',
@@ -104,7 +104,7 @@ const dataShirts = [
     id: 31,
   },
   {
-    price: 550,
+    price: 600,
     size: ['M'],
     image: [require('../../images/shirts/portfolio-img-11.jpg')],
     link: 'https://www.kidstaff.com.ua/tema-31808036.html',
