@@ -6,7 +6,7 @@ const dataMasks = [
     id: 1,
   },
   {
-    price: 'Розпродано!',
+    price: 'Розпродано! 0',
     image: require('../../images/masks/mask2.jpg'),
     link: '',
     id: 2,
