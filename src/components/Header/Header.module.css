@@ -261,11 +261,12 @@ header {
 
 .link_phone_wrapper {
   width: 180px;
-  height: 28px;
-  font-size: 22px;
+  /* height: 28px; */
+  font-size: 20px;
   font-weight: 700;
   text-decoration: none;
   text-align: center;
+  padding-bottom: 2px;
   color: rgb(206, 36, 76);
   border: 1px solid rgb(154, 205, 50, 0);
   border-radius: 40px;
@@ -284,9 +285,9 @@ header {
   }
 
   .link_phone_wrapper {
-    font-size: 26px;
+    font-size: 24px;
     width: 220px;
-    height: 32px;
+    /* height: 32px; */
   }
 }
 
