@@ -2,10 +2,7 @@ const dataShirts = [
   {
     price: 0,
     size: ['Розпродано!'],
-    image: [
-      require('../../images/shirts/portfolio-img-21.jpg'),
-      require('../../images/shirts/portfolio-img-21a.jpg'),
-    ],
+    image: [require('../../images/shirts/portfolio-img-21.jpg')],
     link: '',
     id: 10,
   },
