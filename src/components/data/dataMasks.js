@@ -11,12 +11,12 @@ const dataMasks = [
   //   link: '',
   //   id: 9,
   // },
-  {
-    price: 200,
-    image: require('../../images/masks/mask3.jpg'),
-    link: 'https://www.kidstaff.com.ua/tema-32646875.html',
-    id: 3,
-  },
+  // {
+  //   price: 'Розпродано! 0',
+  //   image: require('../../images/masks/mask3.jpg'),
+  //   link: 'https://www.kidstaff.com.ua/tema-32646875.html',
+  //   id: 3,
+  // },
   {
     price: 200,
     image: require('../../images/masks/mask4.jpg'),
