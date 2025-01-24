@@ -38,8 +38,8 @@ const dataShirts = [
     id: 15,
   },
   {
-    price: 650,
-    size: ['S', 'M', 'L'],
+    price: 690,
+    size: ['S', 'M'],
     image: [require('../../images/shirts/portfolio-img-3.jpg')],
     link: 'https://www.kidstaff.com.ua/tema-32681798.html',
     id: 16,
@@ -52,7 +52,7 @@ const dataShirts = [
     id: 17,
   },
   {
-    price: 650,
+    price: 690,
     size: ['S'],
     image: [require('../../images/shirts/portfolio-img-4.jpg')],
     link: 'https://www.kidstaff.com.ua/tema-30078566.html',
@@ -101,7 +101,7 @@ const dataShirts = [
     id: 31,
   },
   {
-    price: 600,
+    price: 690,
     size: ['M'],
     image: [require('../../images/shirts/portfolio-img-11.jpg')],
     link: 'https://www.kidstaff.com.ua/tema-31808036.html',
